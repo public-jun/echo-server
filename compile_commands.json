@@ -1,0 +1,6 @@
+[
+  { "directory": "/Users/nakahodojunya/42/lvl_05/echo-server",
+    "command": "/usr/local/opt/llvm/bin/clang++ -Wall -Wextra -Werror -std=c++98 src/main.cpp",
+    "file": "main.cpp"
+  }
+]
