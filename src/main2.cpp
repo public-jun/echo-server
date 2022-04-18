@@ -22,11 +22,12 @@ bool is_int(string s)
     return true;
 }
 
-int main(int ac, char **av)
+int main(int ac, char** av)
 {
     if (ac != 2 || !is_int(static_cast<string>(av[1])))
     {
-        cerr << "[ERROR] Port is not provided via command line parameters!" << endl;
+        cerr << "[ERROR] Port is not provided via command line parameters!"
+             << endl;
         return -1;
     }
 
