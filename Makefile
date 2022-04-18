@@ -11,7 +11,7 @@ DPSDIR    :=    ./dps
 INCLUDE   := -I$(INCDIR)
 VPATH     := src:
 
-SRCS      := src/main2.cpp
+SRCS      := src/main.cpp
 
 OBJS      := $(addprefix $(OBJDIR)/, $(notdir $(SRCS:.cpp=.o)))
 DPS       := $(addprefix $(DPSDIR)/, $(notdir $(SRCS:.o=.d)))
