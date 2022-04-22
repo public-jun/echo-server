@@ -53,7 +53,7 @@ $ brew install telnet
 
 ### ECHO-SERVER and CLIENT
 In `src/echo-server-and-client`
-```
+```bash
 $ make
 $ ./server 7000
 
