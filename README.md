@@ -51,16 +51,6 @@ $ brew install telnet
  
 ## USAGE
 
-### ECHO-SERVER and CLIENT
-In `src/echo-server-and-client`
-```bash
-$ make
-$ ./server 7000
-
-# another terminal
-$ ./client localhost 7000
-```
-
 ### SIMPLE-ECHO-SERVER with telnet
 In `src/simple-echo`
 ```bash
@@ -69,6 +59,16 @@ $ ./simple_echo_server
 
 # another terminal
 $ telnet localhost 7000
+```
+
+### ECHO-SERVER and CLIENT
+In `src/echo-server-and-client`
+```bash
+$ make
+$ ./server 7000
+
+# another terminal
+$ ./client localhost 7000
 ```
 
 ### SIMPLE-HTTP-SERVER
