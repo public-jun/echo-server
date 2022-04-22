@@ -1,5 +1,5 @@
 # echo-server
-echo-server && simplt-http-server
+echo-server && simple-http-server
 
 ## versions
 ```
